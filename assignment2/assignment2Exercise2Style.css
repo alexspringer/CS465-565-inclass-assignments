@@ -1,1 +1,90 @@
-sdd
+#container{
+    width:824px;
+    margin:40px auto;
+}
+
+img{
+    vertical-align: bottom;
+    margin: 0;
+}
+
+#image-0{
+    position:absolute;
+    margin:0;
+}
+
+#image-1{
+    margin-right:8px;
+}
+
+#image-4{
+    margin-left:8px;
+}
+
+#image-5{
+    margin-left:8px;
+}
+
+#image-4,#image-5,#image-6,#image-7{
+    float:right;
+}
+
+#image-1, #image-2, #image-3{
+    float:left;
+}
+
+h1{
+    width: 408px;
+    height: 80px;
+    letter-spacing: -1px;
+    font-size: 4em;
+    font-family: Baskerville, Palatino, "Book Antiqua", serif;
+    color:gray;
+    margin: 0 0 36px 0;
+}
+
+.unit{
+    display:block;
+}
+
+#unitKittenContent{
+    width:400px;
+    padding-right: 8px;
+    height:582px;
+    float:left;
+    position:relative;
+}
+
+
+#unitManyCatPictures{
+    width:408px;
+    float:right;
+    margin-left:8px;
+    margin-bottom:8px;
+}
+
+#unitManyCatPictures img{
+    margin-bottom:8px;
+}
+
+a{
+    color:#5b9300;
+}
+
+#links{
+    padding: 8px 16px;
+    background-color:#444;
+    color:white;
+    font-weight: bold;
+    width: 376px;
+    bottom: 295px;
+}
+
+footer{
+    font-size: 85.714%;
+    clear: both;
+    margin-top:16px;
+    border-top: 1px solid #D6D6D6;
+    padding: 12px 0;
+    display:block;
+}
