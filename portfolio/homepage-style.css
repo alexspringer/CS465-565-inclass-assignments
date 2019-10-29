@@ -1,11 +1,41 @@
 body{
-    background-image:url(http://cdn.themis-media.com/media/global/images/library/deriv/1437/1437097.jpg);
-    background-size:1349px 900px;
+    background-image:url(https://i.imgur.com/iNva4V1.jpg);
+    background-size:1920px 1080px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 html,body{
     margin: 0;
     padding: 0;
 }
+
+/*MAIN STYLING */
+main{
+    width: 100%;
+    height: 300px;
+}
+
+#main-container{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name{
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+
+}
+
+
+/* HEADER STYLING */
 
 ul{
     list-style: none;
@@ -18,7 +48,7 @@ li{
 }
 
 li a{
-    font-size: 18px;
+    font-size: 20x;
     display:block;
     color:black;
     padding: 20px;
@@ -31,36 +61,28 @@ li a:hover{
 
 }
 
-#name-title{
+#social-media{
     position: absolute;
-    bottom: 15px;
-    top: 15px;
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    text-align: center;
+    top: 10px;
+    left: 0;
     width:300px;
-    height: 30px;
+    height: 60px;
+}
+
+#snapchat-logo, #github-logo{
+    height:30px;
+    margin-right: 30px;
 }
 
 header{
-    position: relative;
-    width: 100%;
+    width: 1920px;
     height: 60px;
     background-color:white;
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #000000;
-}
-
 #head-container{
     position: relative;
-    width: 1200px;
+    width: 1500px;
     height: 60px;
     margin-left:auto;
     margin-right:auto;
