@@ -1,0 +1,78 @@
+/*header / navbar styling*/
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    float:right;
+}
+
+li a{
+    font-size: 20x;
+    display:block;
+    color:black;
+    padding: 20px;
+    text-align:center;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:rgb(0, 140, 255);
+
+}
+
+#social-media{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width:300px;
+    height: 60px;
+}
+
+#snapchat-logo, #github-logo{
+    height:30px;
+    margin-right: 30px;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color:white;
+}
+
+#head-container{
+    position: relative;
+    width: 75%;
+    height: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*body styling*/
+/*The default web page will be 1920 by 1080 but
+I also have support for my laptop which is 1366 by 768. */
+body{
+    width: 1920px;
+    height: 1080px;
+}
+
+@media(max-width:1400px){
+    body{
+        width:1366px;
+        height:768px;
+    }
+}
+
+p{
+    width:40%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+
+#psu-logo{
+    width: 250px;
+    height: 250px;
+}
