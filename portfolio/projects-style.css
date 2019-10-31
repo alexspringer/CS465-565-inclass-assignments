@@ -49,23 +49,3 @@ header{
     margin-left:auto;
     margin-right:auto;
 }
-
-/*body styling*/
-/*The default web page will be 1920 by 1080 but
-I also have support for my laptop which is 1366 by 768. */
-body, html{
-    padding:0;
-    margin:0;
-}
-
-body{
-    width: 1920px;
-    height: 1080px;
-}
-
-@media(max-width:1400px){
-    body{
-        width:1366px;
-        height:768px;
-    }
-}
