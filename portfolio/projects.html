@@ -1,34 +1,137 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> PROJECTS </title>
-        <link rel="stylesheet" href="projects-style.css">
-    </head>
-    <body>
-        <header>
-            <div id="head-container">
-                <div id="social-media">
-                    <a href="https://www.snapchat.com/add/springdog97">
-                        <img id="snapchat-logo" 
-                            src="https://www.snapchat.com/static/style-guide/images/ghost/ghost.svg" 
-                            alt="snapchat logo">
-                    </a>
-                    <a href="https://github.com/alexspringer">
-                        <img id="github-logo"
-                            src="https://image.flaticon.com/icons/png/512/25/25231.png"
-                            alt="github logo">
-                    </a>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-                </div>
-                <ul>
-                    <li> <a href="contact.html" id="contact-link" class="nav"> CONTACT </a> </li>
-                    <li> <a href="projects.html" id="project-link" class="nav"> PROJECTS </a> </li>
-                    <li> <a href="about.html" id="about-link" class="nav"> ABOUT </a> </li>
-                    <li> <a href="homepage.html" id="homepage-link" class="nav"> HOME</a></li>
-                </ul>
-            </div>
-        </header>
-        <main>
-        </main>
-    </body>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>Projects</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-item" href="https://github.com/alexspringer">
+              <img
+                id="github-logo"
+                src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                alt="github logo"
+                width="30"
+                height="30"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item" href="https://www.snapchat.com/add/springdog97">
+              <img
+                id="snapchat-logo"
+                src="https://www.snapchat.com/static/style-guide/images/ghost/ghost.svg"
+                alt="snapchat logo"
+                width="30"
+                height="30"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="homepage.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="projects.html"
+              >Projects <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container marketing">
+      <hr class="featurette-divider" />
+      <div class="row featurette">
+        <div class="col-lg">
+          <h2 class="featurette-heading">XV6 Operating System</h2>
+          <p class="lead">
+            This project was a great learning experience for me. It was the
+            first time I had ever needed to begin programming in a large,
+            already existing, code base. During the term I added many system
+            calls and greatly improved the scheduler in the XV6 operating
+            system. This project greatly improved my proficiency in debugging.
+            Due to the nature of bugs and concurrecny issues with operating
+            systems, one quickly becomes proficient with debugging.
+          </p>
+          <button type="button" class="btn btn-primary">Source Code</button>
+        </div>
+      </div>
+      <hr class="featurette-divider" />
+      <div class="row featurette">
+        <div class="col-lg">
+          <h2 class="featurette-heading">Portfolio Web App</h2>
+          <p class="lead">
+              This is the project you are looking at right now! This page is
+              the first webpage I have made with bootstrap! Ultimately, this project
+              is putting together everything we have learned about HTML, CSS, and even
+              a little bit of JavaScript.
+          </p>
+          <button type="button" class="btn btn-primary" href="">Source Code</button>
+        </div>
+      </div>
+      <hr class="featurette-divider" />
+      <div class="row featurette">
+        <div class="col-lg">
+          <h2 class="featurette-heading">IRC Networking Project</h2>
+          <p class="lead">
+              This is a project that I will finish by the end of the fall 2019 term!
+              This application will be a simple messaging app where I will use my knowledge
+              of internet protocols, such as http, udp, and tcp. This project will be done
+              in python which is a new programming language for me. 
+          </p>
+          <button type="button" class="btn btn-primary">Source Code</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
