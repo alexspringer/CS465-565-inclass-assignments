@@ -1,10 +1,10 @@
 body{
-    background-image:url(https://i.imgur.com/iNva4V1.jpg);
+    background-image:url(homepage-background.jpg);
     background-size:1920px 1080px;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
     width:1920px;
-    height:1080px;
+    height:100%;
 }
 
 html,body{
@@ -35,7 +35,7 @@ main{
     bottom: 0;
     text-align: center;
     font-size: 40px;
-    color: white;
+    color:black;
 
 }
 
@@ -94,10 +94,10 @@ header{
 }
 
 /*support for my laptop resoulution. Default is 1920x1080*/
-@media (max-width: 1400px){
+@media (max-height:800px){
     body{
         width:1366px;
-        height:800px;
-        background-size:1366px 800px;
+        height:768px;
+        background-size:1366px 768px;
     }
 }

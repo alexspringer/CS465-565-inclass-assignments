@@ -30,10 +30,11 @@
         </header>
 
         <main>
-            <div id="about-me">
-                <h1> About Me</h1>
-                <div id="education">
-                    <h3> Education </h3>
+            <h1> About Me</h1>
+            <div id="education" class="box">
+                <h3 id="education-header"> Education </h3>
+
+                <div id="edu-text-container" class="text-container">
                     <p> 
                         I am a student at Portland State University pursuing a bachelors
                         degree in Computer Science. During my studies,
@@ -44,16 +45,13 @@
                         a full-stack web application and a database of those seeking rehab from chocolate addictions.
                         Ultimately, as I am nearing the completion of my degree I am excited to apply everything
                         ive learned in university to real world experience.
-
                     </p>
-                    <div id="psu-logo-container">
-                        <img id="psu-logo" alt="psu-logo" 
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Portland_State_Vikings_logo.svg/2000px-Portland_State_Vikings_logo.svg.png">
-                    </div>
-                </div> 
+                </div>
+            </div> 
 
-                <div id="commitment-health">
-                    <h3> Commitment to Health </h3>
+            <div id="commitment-health" class="box">
+                <h3 id="health-header"> Commitment to Health </h3>
+                <div id="health-text-container" class="text-container">
                     <p> 
                         Starting my freshman year of college at Portland State University,
                         I began commuting to school by bike. At first I would simply ride
@@ -66,13 +64,13 @@
                         in sticking to a schedule and continuing on even as I get exhausted. Exercise
                         also helps me think better and more rationally, which I greatly value.
                     </p>
-                    <img id="bike" alt="picture of bike" 
-                        src="https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
                 </div>
+            </div>
 
-                <div id="hobbies">
+            <div id="hobbies" class="box">
 
-                    <h3> Hobbies </h3>
+                <h3 id="hobbie-header"> Hobbies </h3>
+                <div id="hobbies-text-container" class="text-container">
                     <p>
                         My biggest hobbie is certantly gaming. My favorite games are 
                         League of Legends and World of Warcraft. As insane as it may sound,
@@ -89,8 +87,10 @@
                         population, and being in the upper echalon of gamers, I would say problem solving is one of my
                         strengths.
                     </p>
+                </div>
+                <div id="hobbie-image-container">
                     <a href="https://na.op.gg/summoner/userName=mudbone69">
-                        <img id="op.gg-logo" alt="league rank"
+                        <img id="opgg-logo" alt="league rank"
                             src="http://img.app.kiwi/icon/UdvXlkugn0bJcwiDkqHKG5IElodmv-oL4kHlNAklSA2sdlVWhojsZKaPE-qFPueiZg">
                     </a>
                     <a href="https://www.warcraftlogs.com/character/us/tichondrius/thicklerick">

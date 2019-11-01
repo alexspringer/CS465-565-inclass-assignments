@@ -61,11 +61,106 @@ body, html{
 body{
     width: 1920px;
     height: 1080px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-@media(max-width:1400px){
+@media(max-height:800px){
     body{
         width:1366px;
         height:768px;
     }
+}
+main{
+    width:100%;
+    height:1080px;
+}
+
+p{
+    margin:0;
+    font-size: 20px;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    width:10%;
+    text-align: center;
+}
+
+/*subheaders*/
+h3{
+    padding-left:1%;
+    background-color:black;
+    color:white;
+}
+
+#education-header{
+    width:7.5%
+}
+
+#health-header{
+    width:15%;
+}
+
+#hobbie-header{
+    width:6%;
+}
+
+
+
+.box{
+    position:relative;
+    width:75%;
+    height:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.text-container{
+    position:absolute;
+    width:100%;
+}
+
+.image-container{
+    position: absolute;
+    right:0;
+}
+
+/*psu logo.*/
+#psu-logo-container{
+    position: absolute;
+    right:150px;
+    width:100px;
+    height:100px;
+}
+
+#psu-logo{
+    width:150px;
+    height:150px;
+}
+
+/*bike picture*/
+#bike{
+    width:300px;
+}
+
+/*op.gg and warcraft logs link image*/
+#hobbies{
+    height:500px;
+}
+#hobbie-image-container{
+    position: absolute;
+    left:50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+}
+#opgg-logo{
+    width:250px;
+    height:250px;
+}
+
+#wow-logs{
+    width:250px;
+    height:250px;
 }
