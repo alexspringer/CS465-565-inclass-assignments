@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 1</title>
+  </head>
+  <body>
+    <h1> Press f12 and go to console for fizzbuzz!</h1>
+    <script type="text/javascript">
+      function fizzbuzz() {
+        let num = 0;
+        console.log(num);
+        num = num + 1;
+        while (num <= 100) {
+          if (num % 3 == 0 && num % 5 == 0) {
+            console.log("fizzbuzz");
+          } 
+          else if(num % 3 == 0){
+              console.log("fizz");
+          }
+          else if(num % 5 == 0){
+              console.log("buzz");
+          }
+          else {
+            console.log(num);
+          }
+          num = num + 1;
+        }
+      }
+      fizzbuzz();
+    </script>
+  </body>
+</html>

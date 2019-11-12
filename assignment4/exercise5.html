@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html,body{
+                margin:0;
+                min-height:100%;
+                background-color:darkgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <button onclick="randomBackground()" id="background-changer"> Click to change the background!</button>
+        <script type="text/javascript">
+            function randomBackground{
+                var randomColor = "#000000".replace(/0/g,function(){return (~~(Math.random()*16)).toString(16);});
+                document.html.style.backgroundColor = randomColor;
+            }
+        </script>
+    </body>
+</html>

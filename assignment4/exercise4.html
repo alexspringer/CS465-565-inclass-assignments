@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      exercise 4
+    </title>
+    <style>
+        html{
+            min-height: 100%;
+            background-color:darkgoldenrod
+        }
+    </style>
+  </head>
+  <button onclick="getScreenResolution()"> Get Resolution</button>
+  <p id="test"></p>
+
+  <script type="text/javascript">
+    function getScreenResolution(){
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+        document.getElementById("test").innerHTML = "Width: " + width + "<br>Height: " + height;
+    }
+    getScreenResolution();
+
+  </script>
+</html>
