@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assignment3/bootstrap.min.css" />
+    <title>HTML FORM</title>
+  </head>
+
+  <style>
+    #form-container {
+      width: 25%;
+      margin-top: 30px;
+    }
+  </style>
+
+  <body>
+    <div class="container border" id="form-container">
+      <form action="http://127.0.0.1:3000/submit" method="post">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="form-group">
+          <label for="input-name"> Name </label>
+          <input
+            type="text"
+            class="form-control"
+            id="input-name"
+            placeholder="Enter name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="input-email">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="input-email"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="input-textbox"> Comments </label>
+          <textarea class="form-control" id="input-textbox" rows="4"></textarea>
+        </div>
+        <button id="submit-btn" type="submit" class="btn btn-primary mb-3">
+          Submit
+        </button>
+        <button id="reset-btn" type="reset" class="btn btn-secondary mb-3">
+          Reset
+        </button>
+
+        <script type="text/javascript">
+          let person = {
+            name: "",
+            email: "",
+            comments: ""
+          };
+          document.getElementById(
+            "submit-btn"
+          ).onclick = function getContact() {
+            person.name = document.getElementById("input-name").value;
+            person.email = document.getElementById("input-email").value;
+            person.comments = document.getElementById("input-textbox").value;
+            let result = JSON.stringify(person);
+            console.log(person);
+          };
+          document.getElementById(
+            "reset-btn"
+          ).onclick = function resetContact() {
+            person.name = "";
+            person.email = "";
+            person.comments = "";
+            console.log(person);
+          };
+        </script>
+      </form>
+    </div>
+  </body>
+</html>
