@@ -1,14 +1,15 @@
-const http = require('http');
+const express = require('express')
+const bodyParser = require('body-parser')
+const app = express()
+const port = 3000
 
-const hostname = '127.0.0.1';
-const port = 3000;
+app.set('view engine', 'ejs')
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
-});
+app.get('/', (req, res) => res.sendFile(__dirname + '/index.html'))
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+var urlencodedParser = bodyParser.urlencoded({ extended: false })
+app.post('/submit', urlencodedParser, function (req, res) {
+    res.render('submit', {person: req.body})
+})
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+console.log("http://127.0.0.1:3000/")
