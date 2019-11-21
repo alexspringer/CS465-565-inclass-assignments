@@ -10,7 +10,7 @@ used Bootstrap Grid.
 In assignment 5 I created an Express server. I used ejs as a template renderer to
 output the post data to the /submit webpage.
 
-In assignment 6 I did the react, angular, and express tutorials. 
+In assignment 6 I did the react, angular, and express tutorials. (my-app is the react tutorial).
 
 Note: For exercises where asked to work on my portfolio are included in the portfolio folder. I did not create a
 specific file for these exercises but due to the fact my portfolio was finished and turned in means those exercises where
